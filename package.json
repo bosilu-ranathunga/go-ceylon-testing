@@ -1,0 +1,25 @@
+{
+  "name": "go-ceylon-testing",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bosilu-ranathunga/go-ceylon-testing#readme",
+  "bugs": {
+    "url": "https://github.com/bosilu-ranathunga/go-ceylon-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosilu-ranathunga/go-ceylon-testing.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require step-definitions/**/*.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3"
+  }
+}
