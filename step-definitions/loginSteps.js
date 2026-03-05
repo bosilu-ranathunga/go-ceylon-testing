@@ -7,12 +7,12 @@ const LOGIN_PATH = process.env.LOGIN_PATH || '/login';
 let browser;
 let page;
 
-Before(async () => {
-    browser = await chromium.launch({ headless: false });
+Before({ tags: '@login' }, async () => {
+    browser = await chromium.launch({ headless: process.env.CI ? true : false });
     page = await browser.newPage();
 });
 
-After(async () => {
+After({ tags: '@login' }, async () => {
     if (browser) {
         await browser.close();
     }

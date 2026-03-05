@@ -1,0 +1,399 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 763424900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2689633100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters valid username and password",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60055800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks the login button",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179792300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should see the dashboard",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1914113199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 621818499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "registration-functionality;user-completes-traveller-registration",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User completes traveller registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 877272599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2514031499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user selects Traveller account type",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390080899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user enters valid registration details",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 995367099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user selects travel preferences and submits the form",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 939889599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should see the registration success message",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342965500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 570997299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "registration-functionality;user-completes-guide-registration",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User completes guide registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 841176199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2776783499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user selects Guide account type",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 394957500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user enters valid guide personal details",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1035467100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user enters valid guide specific details and submits the form",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1069837700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user should see the registration success message",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353164600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 681154899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "registration-functionality;user-completes-business-registration",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "User completes business registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1054083099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the registration page",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2758147199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user selects Business account type",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 375157100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user enters valid business personal details",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994900700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the user enters valid business specific details and submits the form",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 957710699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the user should see the registration success message",
+            "match": {
+              "location": "step-definitions\\registerSteps.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354337500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 653726800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registration functionality",
+    "tags": [],
+    "uri": "features\\register.feature"
+  }
+]
