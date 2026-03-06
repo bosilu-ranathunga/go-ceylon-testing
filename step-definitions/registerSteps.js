@@ -9,7 +9,7 @@ const LOGIN_PATH = process.env.LOGIN_PATH || '/login';
 let browser;
 let page;
 
-// Registration page can take longer on deployed environments.
+// Registration page can take longer on deployed environments...
 setDefaultTimeout(30 * 1000);
 
 Before({ tags: '@register' }, async () => {
