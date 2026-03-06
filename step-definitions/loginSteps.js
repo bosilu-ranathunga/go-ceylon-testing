@@ -13,7 +13,7 @@ const BUSINESS_PASSWORD = process.env.BUSINESS_USER_PASSWORD || '123';
 
 let browser;
 let page;
-
+//
 const roleCredentials = {
     user: { email: USER_EMAIL, password: USER_PASSWORD },
     admin: { email: ADMIN_EMAIL, password: ADMIN_PASSWORD },
@@ -46,12 +46,6 @@ const assertRedirectForRole = async (role) => {
 Before({ tags: '@login' }, async () => {
     browser = await chromium.launch({ headless: process.env.CI ? true : false });
     page = await browser.newPage();
-});
-
-After({ tags: '@login' }, async () => {
-    if (browser) {
-        await browser.close();
-    }
 });
 
 Given('the user is on the login page', async () => {
@@ -92,4 +86,10 @@ Then('the admin should see the dashboard', async () => {
 
 Then('the business user should see the dashboard', async () => {
     await assertRedirectForRole('business');
+});
+
+After({ tags: '@login' }, async () => {
+    if (browser) {
+        await browser.close();
+    }
 });
