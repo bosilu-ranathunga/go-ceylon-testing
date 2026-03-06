@@ -4,6 +4,127 @@
     "elements": [
       {
         "description": "",
+        "id": "admin-add-attraction-functionality;admin-can-create-a-new-attraction",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Admin can create a new attraction",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 541392899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the admin is on the login page",
+            "match": {
+              "location": "step-definitions\\adminAddAttractionSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2270232900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the admin logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\adminAddAttractionSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1555777000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the admin navigates to the add attraction page",
+            "match": {
+              "location": "step-definitions\\adminAddAttractionSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258226099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the admin fills valid attraction details",
+            "match": {
+              "location": "step-definitions\\adminAddAttractionSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247349999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin submits the attraction form",
+            "match": {
+              "location": "step-definitions\\adminAddAttractionSteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83654199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the admin should see an attraction created success message",
+            "match": {
+              "location": "step-definitions\\adminAddAttractionSteps.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865046300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 312374499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adminAddAttraction",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "admin-add-attraction-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Admin add attraction functionality",
+    "tags": [],
+    "uri": "features\\adminAddAttraction.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "login-functionality;user-logs-in-with-valid-credentials",
         "keyword": "Scenario",
         "line": 4,
@@ -14,7 +135,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 763424900
+              "duration": 512690000
             }
           },
           {
@@ -27,7 +148,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2689633100
+              "duration": 2025610300
             }
           },
           {
@@ -40,7 +161,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60055800
+              "duration": 38418999
             }
           },
           {
@@ -53,7 +174,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 179792300
+              "duration": 127854600
             }
           },
           {
@@ -66,7 +187,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1914113199
+              "duration": 1043222999
             }
           },
           {
@@ -74,7 +195,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 621818499
+              "duration": 299137600
             }
           }
         ],
@@ -109,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 877272599
+              "duration": 528205400
             }
           },
           {
@@ -122,7 +243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2514031499
+              "duration": 2352800800
             }
           },
           {
@@ -135,7 +256,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 390080899
+              "duration": 368239400
             }
           },
           {
@@ -148,7 +269,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 995367099
+              "duration": 985919300
             }
           },
           {
@@ -161,7 +282,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 939889599
+              "duration": 938498099
             }
           },
           {
@@ -174,7 +295,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 342965500
+              "duration": 351159299
             }
           },
           {
@@ -182,7 +303,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 570997299
+              "duration": 406987000
             }
           }
         ],
@@ -206,7 +327,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 841176199
+              "duration": 539373700
             }
           },
           {
@@ -219,7 +340,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2776783499
+              "duration": 2385955200
             }
           },
           {
@@ -232,7 +353,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 394957500
+              "duration": 377428199
             }
           },
           {
@@ -245,7 +366,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1035467100
+              "duration": 1003463799
             }
           },
           {
@@ -258,7 +379,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1069837700
+              "duration": 994516899
             }
           },
           {
@@ -271,7 +392,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 353164600
+              "duration": 338513899
             }
           },
           {
@@ -279,7 +400,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 681154899
+              "duration": 343092199
             }
           }
         ],
@@ -303,7 +424,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1054083099
+              "duration": 506080699
             }
           },
           {
@@ -316,7 +437,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2758147199
+              "duration": 2496103999
             }
           },
           {
@@ -329,7 +450,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 375157100
+              "duration": 384362099
             }
           },
           {
@@ -342,7 +463,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 994900700
+              "duration": 965189600
             }
           },
           {
@@ -355,7 +476,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 957710699
+              "duration": 940151799
             }
           },
           {
@@ -368,7 +489,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 354337500
+              "duration": 345040799
             }
           },
           {
@@ -376,7 +497,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 653726800
+              "duration": 354007299
             }
           }
         ],
