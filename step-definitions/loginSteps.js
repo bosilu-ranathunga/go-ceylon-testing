@@ -13,7 +13,7 @@ const BUSINESS_PASSWORD = process.env.BUSINESS_USER_PASSWORD || '123';
 
 let browser;
 let page;
-//
+
 const roleCredentials = {
     user: { email: USER_EMAIL, password: USER_PASSWORD },
     admin: { email: ADMIN_EMAIL, password: ADMIN_PASSWORD },
