@@ -55,6 +55,27 @@ function openReport(filePath) {
     child.unref();
 }
 
+function readJsonReportSafe(filePath) {
+    if (!fs.existsSync(filePath)) {
+        console.warn(`JSON report not found at: ${filePath}`);
+        return null;
+    }
+
+    const raw = fs.readFileSync(filePath, "utf8").trim();
+
+    if (!raw) {
+        console.warn("JSON report is empty; skipping HTML report generation.");
+        return null;
+    }
+
+    try {
+        return JSON.parse(raw);
+    } catch (error) {
+        console.warn(`JSON report is invalid; skipping HTML report generation. ${error.message}`);
+        return null;
+    }
+}
+
 
 function formatDuration(ms) {
     const s = Math.floor(ms / 1000);
@@ -356,13 +377,12 @@ margin-bottom:4px;
 
 
 function main() {
+    const json = readJsonReportSafe(JSON_REPORT_PATH);
 
-    if (!fs.existsSync(JSON_REPORT_PATH)) {
-        console.error("JSON report not found");
-        process.exit(1);
+    if (!Array.isArray(json)) {
+        // Keep CI/report steps resilient when test execution failed before report emission.
+        return;
     }
-
-    const json = JSON.parse(fs.readFileSync(JSON_REPORT_PATH));
 
     const stats = analyzeReport(json);
 

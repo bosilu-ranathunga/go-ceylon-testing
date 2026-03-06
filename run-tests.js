@@ -51,7 +51,7 @@ if (fs.existsSync(jsonReportPath)) {
     const reportResult = runNodeScript(generateReportScript, []);
 
     if (reportResult.error) {
-        throw reportResult.error;
+        console.warn(`Report generation failed: ${reportResult.error.message}`);
     }
 }
 

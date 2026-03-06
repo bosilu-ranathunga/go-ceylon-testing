@@ -28,12 +28,22 @@ const { chromium } = require("@playwright/test");
 // ── Shared browser (one per test run) ───────────────────────────────────────
 let sharedBrowser = null;
 
+const isCI = String(process.env.CI || "").toLowerCase() === "true";
+const isHeadedRequested = /^(1|true)$/i.test(process.env.PLAYWRIGHT_HEADED || "");
+const launchHeadless = isCI ? true : !isHeadedRequested;
+const launchSlowMo = launchHeadless
+  ? 0
+  : Number.parseInt(process.env.PLAYWRIGHT_SLOWMO || "100", 10);
+
 BeforeAll({ timeout: 60_000 }, async function () {
   sharedBrowser = await chromium.launch({
-    headless: false,
-    slowMo: 100, // slight delay so you can follow what's happening
+    // CI runners usually have no X server; default to headless there.
+    headless: launchHeadless,
+    slowMo: Number.isFinite(launchSlowMo) ? launchSlowMo : 100,
   });
-  console.log("[BeforeAll] Chromium launched.");
+  console.log(
+    `[BeforeAll] Chromium launched (headless=${launchHeadless}, ci=${isCI}).`,
+  );
 });
 
 // ── Per-scenario setup ──────────────────────────────────────────────────────
