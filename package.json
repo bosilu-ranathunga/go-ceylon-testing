@@ -1,7 +1,7 @@
 {
   "name": "go-ceylon-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "BDD test automation for GoCeylon — Booking Guides feature",
   "homepage": "https://github.com/bosilu-ranathunga/go-ceylon-testing#readme",
   "bugs": {
     "url": "https://github.com/bosilu-ranathunga/go-ceylon-testing/issues"
@@ -15,10 +15,19 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --require step-definitions/**/*.js"
+    "test": "cucumber-js --config cucumber.js",
+    "test:smoke": "cucumber-js --config cucumber.js --profile smoke",
+    "test:regression": "cucumber-js --config cucumber.js --profile regression",
+    "test:traveler": "cucumber-js --config cucumber.js --profile traveler",
+    "test:guide": "cucumber-js --config cucumber.js --profile guide",
+    "test:tag": "cucumber-js --config cucumber.js --tags \"${TAG}\"",
+    "report": "node reports/generate-report.js && node reports/serve-report.js",
+    "report:generate": "node reports/generate-report.js",
+    "report:serve": "node reports/serve-report.js"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^12.7.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.3.3"
   }

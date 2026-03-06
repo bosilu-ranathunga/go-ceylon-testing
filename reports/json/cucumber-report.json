@@ -1,0 +1,2768 @@
+[
+  {
+    "description": "  As a traveler or guide on GoCeylon\n  I want to manage guide bookings end-to-end\n  So that I can plan, confirm, and track tour arrangements",
+    "elements": [
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-the-guide-list-for-a-location",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Traveler views the guide list for a location",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208874399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21745899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1175694699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1528752899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the guide list page heading \"Guides\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:304"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39652500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the guide search input is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:320"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5349500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28399899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 14
+          },
+          {
+            "name": "@traveler",
+            "line": 14
+          },
+          {
+            "name": "@guide-list",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-searches-for-a-guide-by-name",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Traveler searches for a guide by name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 163313599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12070700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865225300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515924100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the traveler types \"Kamal\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141938599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the guide cards shown contain the text \"Kamal\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:330"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15689300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28502600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 21
+          },
+          {
+            "name": "@search",
+            "line": 21
+          },
+          {
+            "name": "@regression",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-sees-no-results-for-an-unknown-guide-name",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Traveler sees no results for an unknown guide name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 198377100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16064400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 967793599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1510293400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the traveler types \"zzznomatch\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141339500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the no-guides message \"No guides found...\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9506699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23522600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 28
+          },
+          {
+            "name": "@search",
+            "line": 28
+          },
+          {
+            "name": "@regression",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-filters-guide-list-using-different-search-keywords",
+        "keyword": "Scenario Outline",
+        "line": 46,
+        "name": "Traveler filters guide list using different search keywords",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 161398999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12093900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1007837499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515268300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the traveler types \"Kamal\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140895800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the guide search results count is at least 1",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4288399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26012099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 37
+          },
+          {
+            "name": "@search",
+            "line": 37
+          },
+          {
+            "name": "@regression",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-filters-guide-list-using-different-search-keywords",
+        "keyword": "Scenario Outline",
+        "line": 47,
+        "name": "Traveler filters guide list using different search keywords",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 154805899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12175700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1477512499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1526114599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the traveler types \"Nimal\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140243699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the guide search results count is at least 1",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4171299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26119099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 37
+          },
+          {
+            "name": "@search",
+            "line": 37
+          },
+          {
+            "name": "@regression",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-filters-guide-list-using-different-search-keywords",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "Traveler filters guide list using different search keywords",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164337299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12786299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1132683400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1527798399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the traveler types \"guide\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139976600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the guide search results count is at least 0",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3422200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23029299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 37
+          },
+          {
+            "name": "@search",
+            "line": 37
+          },
+          {
+            "name": "@regression",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-books-a-guide-successfully",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Traveler books a guide successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164213199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13804700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "the traveler is logged in and a guide booking page is pre-loaded",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2696434199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "the traveler clicks the \"Request Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172405200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the success modal with title \"Requested!\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:375"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6132399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "the modal message \"Your booking is pending confirmation.\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:385"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7375399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21031399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 51
+          },
+          {
+            "name": "@traveler",
+            "line": 51
+          },
+          {
+            "name": "@booking",
+            "line": 51
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-is-redirected-to-booking-history-after-confirming-success-modal",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Traveler is redirected to booking history after confirming success modal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 161921399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12522999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 60,
+            "name": "the traveler is logged in and a guide booking page is pre-loaded",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2583108100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "the traveler clicks the \"Request Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172205099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "the traveler clicks \"OK\" in the success modal",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:242"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171502799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "the URL contains \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:395"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4626299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21034500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 58
+          },
+          {
+            "name": "@booking",
+            "line": 58
+          },
+          {
+            "name": "@regression",
+            "line": 58
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-their-booking-history",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Traveler views their booking history",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 163599799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11238299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1278300899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "the traveler navigates to \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1526393400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "the booking history page heading \"Booking History\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:401"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29266500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "at least one booking card is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4139200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22223600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 66
+          },
+          {
+            "name": "@traveler",
+            "line": 66
+          },
+          {
+            "name": "@history",
+            "line": 66
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-sees-booking-status-badge-on-each-booking-card",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Traveler sees booking status badge on each booking card",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 160280099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14117900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 75,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1043980000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "the traveler navigates to \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1513646799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "each booking card has a visible status badge",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:429"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25744999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21014299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 73
+          },
+          {
+            "name": "@history",
+            "line": 73
+          },
+          {
+            "name": "@regression",
+            "line": 73
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-booking-details-for-different-booking-statuses",
+        "keyword": "Scenario Outline",
+        "line": 93,
+        "name": "Traveler views booking details for different booking statuses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 191917299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12864600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1115851900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the booking is stubbed with status \"pending\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2919600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "the traveler navigates to booking info page for booking \"mock_booking_001\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1526534999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:440"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24961900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the booking status badge is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4726399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20309800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 83
+          },
+          {
+            "name": "@booking-info",
+            "line": 83
+          },
+          {
+            "name": "@regression",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-booking-details-for-different-booking-statuses",
+        "keyword": "Scenario Outline",
+        "line": 94,
+        "name": "Traveler views booking details for different booking statuses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156995399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13844300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1088351599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the booking is stubbed with status \"confirmed\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1042500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "the traveler navigates to booking info page for booking \"mock_booking_001\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1526518700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:440"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21954400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the booking status badge is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6425000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19679399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 83
+          },
+          {
+            "name": "@booking-info",
+            "line": 83
+          },
+          {
+            "name": "@regression",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-booking-details-for-different-booking-statuses",
+        "keyword": "Scenario Outline",
+        "line": 95,
+        "name": "Traveler views booking details for different booking statuses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164238400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10235499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 958671499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the booking is stubbed with status \"cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 819400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "the traveler navigates to booking info page for booking \"mock_booking_001\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1511963800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:440"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21185499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the booking status badge is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4683799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22118900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 83
+          },
+          {
+            "name": "@booking-info",
+            "line": 83
+          },
+          {
+            "name": "@regression",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-cancels-a-pending-booking",
+        "keyword": "Scenario",
+        "line": 98,
+        "name": "Traveler cancels a pending booking",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156924800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12543499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 99,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089250299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 100,
+            "name": "the traveler navigates to booking info page for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1527824699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "the traveler clicks the \"Cancel Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171874500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "the cancel confirmation modal is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:463"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5443800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "a \"Yes, Cancel\" button is shown in the cancel modal",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:471"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5525399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21782400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 97
+          },
+          {
+            "name": "@cancellation",
+            "line": 97
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-confirms-booking-cancellation",
+        "keyword": "Scenario",
+        "line": 106,
+        "name": "Traveler confirms booking cancellation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159110500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12606599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 107,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 930702100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 108,
+            "name": "the traveler navigates to booking info page for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1516836400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "the traveler clicks the \"Cancel Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172166299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "the traveler clicks \"Yes, Cancel\" in the cancel modal",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:251"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140782300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "the booking status changes to \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:479"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6252700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23606200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 105
+          },
+          {
+            "name": "@cancellation",
+            "line": 105
+          },
+          {
+            "name": "@regression",
+            "line": 105
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-downloads-a-booking-receipt",
+        "keyword": "Scenario",
+        "line": 114,
+        "name": "Traveler downloads a booking receipt",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159826800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12212299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 115,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1028828500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "the traveler navigates to \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1516862299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "the traveler clicks the download receipt button on the first booking",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:258"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10970600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 118,
+            "name": "a PDF download is triggered",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:493"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1540999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24355799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 113
+          },
+          {
+            "name": "@receipt",
+            "line": 113
+          },
+          {
+            "name": "@regression",
+            "line": 113
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-views-their-booking-history",
+        "keyword": "Scenario",
+        "line": 122,
+        "name": "Guide views their booking history",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 155987699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13141500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 123,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1351972499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 124,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1519144499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 125,
+            "name": "the guide booking history page heading \"Booking History\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:510"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27775399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 126,
+            "name": "at least one guide booking card is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:523"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3762800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23546900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 121
+          },
+          {
+            "name": "@guide",
+            "line": 121
+          },
+          {
+            "name": "@history",
+            "line": 121
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-sees-correct-status-badges-on-bookings",
+        "keyword": "Scenario",
+        "line": 129,
+        "name": "Guide sees correct status badges on bookings",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159494699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8688799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 130,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1216052800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 131,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515301399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25730199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21585100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 128
+          },
+          {
+            "name": "@status",
+            "line": 128
+          },
+          {
+            "name": "@regression",
+            "line": 128
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-booking-list-renders-each-booking-status-correctly",
+        "keyword": "Scenario Outline",
+        "line": 145,
+        "name": "Guide booking list renders each booking status correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162599399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12713799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 138,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1723412399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "the guide booking list is stubbed with a single booking in \"Pending\" status",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2224100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515434900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25750199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19323700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 136
+          },
+          {
+            "name": "@status",
+            "line": 136
+          },
+          {
+            "name": "@regression",
+            "line": 136
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-booking-list-renders-each-booking-status-correctly",
+        "keyword": "Scenario Outline",
+        "line": 146,
+        "name": "Guide booking list renders each booking status correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 160915499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13208200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 138,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1303265600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "the guide booking list is stubbed with a single booking in \"Confirmed\" status",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1296100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1513523000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29516000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16095799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 136
+          },
+          {
+            "name": "@status",
+            "line": 136
+          },
+          {
+            "name": "@regression",
+            "line": 136
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-booking-list-renders-each-booking-status-correctly",
+        "keyword": "Scenario Outline",
+        "line": 147,
+        "name": "Guide booking list renders each booking status correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 154733700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10239800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 138,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1209442600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "the guide booking list is stubbed with a single booking in \"Cancelled\" status",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1156900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515654800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20883200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22939199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 136
+          },
+          {
+            "name": "@status",
+            "line": 136
+          },
+          {
+            "name": "@regression",
+            "line": 136
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-views-booking-info-details",
+        "keyword": "Scenario",
+        "line": 151,
+        "name": "Guide views booking info details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156020400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7332300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 152,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 895642700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 153,
+            "name": "the guide navigates to guide booking info for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1525935700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 154,
+            "name": "the guide booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:547"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22795299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 155,
+            "name": "the traveler name section is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:551"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6319699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19048099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 150
+          },
+          {
+            "name": "@booking-info",
+            "line": 150
+          },
+          {
+            "name": "@regression",
+            "line": 150
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-cancels-a-pending-booking",
+        "keyword": "Scenario",
+        "line": 158,
+        "name": "Guide cancels a pending booking",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131372499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8354799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 159,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 947926299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 160,
+            "name": "the guide navigates to guide booking info for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1510549100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 161,
+            "name": "the guide clicks the \"Cancel Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:238"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171453000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 162,
+            "name": "the guide cancel confirmation modal is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:559"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5380900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20170599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 157
+          },
+          {
+            "name": "@cancellation",
+            "line": 157
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-enters-a-6-digit-verification-code-to-confirm-a-booking",
+        "keyword": "Scenario",
+        "line": 165,
+        "name": "Guide enters a 6-digit verification code to confirm a booking",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127669899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7541699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 166,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111591900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 167,
+            "name": "the booking is stubbed with status \"confirmed\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 895100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 168,
+            "name": "the guide navigates to guide booking info for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1512308000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 169,
+            "name": "the guide enters the verification code \"123456\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:286"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 765526700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 170,
+            "name": "the verification code inputs are filled correctly",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:572"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22480899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19220600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 164
+          },
+          {
+            "name": "@guide",
+            "line": 164
+          },
+          {
+            "name": "@verification",
+            "line": 164
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "booking-guides",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Booking Guides",
+    "tags": [
+      {
+        "name": "@booking",
+        "line": 1
+      }
+    ],
+    "uri": "features\\booking.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 128061499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1388115300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters valid username and password",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234188099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clicks the login button",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153463500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user should see the dashboard",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1083259799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22541599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
