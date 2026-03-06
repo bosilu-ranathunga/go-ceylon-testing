@@ -36,6 +36,8 @@ fs.mkdirSync(reportsDir, { recursive: true });
 const cucumberArgs = [
     resolveCucumberBin(),
     "--require",
+    "support/**/*.js",
+    "--require",
     "step-definitions/**/*.js",
     "--format",
     "progress",

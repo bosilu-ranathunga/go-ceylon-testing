@@ -14,7 +14,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 604355500
+              "duration": 550625600
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1699819699
             }
           },
           {
@@ -27,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2501063000
+              "duration": 2194147299
             }
           },
           {
@@ -40,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1605977399
+              "duration": 1806564400
             }
           },
           {
@@ -53,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 261414099
+              "duration": 347803500
             }
           },
           {
@@ -66,7 +74,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202359999
+              "duration": 335899800
             }
           },
           {
@@ -79,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94402699
+              "duration": 145192600
             }
           },
           {
@@ -92,7 +100,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 864392499
+              "duration": 832886000
             }
           },
           {
@@ -100,7 +108,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 294003700
+              "duration": 533212700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38392599
             }
           }
         ],
@@ -124,7 +140,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 854383599
+              "duration": 410963299
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1269182600
             }
           },
           {
@@ -137,7 +161,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2045504199
+              "duration": 2199338100
             }
           },
           {
@@ -150,7 +174,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1305914199
+              "duration": 1707604299
             }
           },
           {
@@ -163,7 +187,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 255092500
+              "duration": 329177900
             }
           },
           {
@@ -176,7 +200,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 219961200
+              "duration": 319145799
             }
           },
           {
@@ -189,7 +213,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92165600
+              "duration": 122119399
             }
           },
           {
@@ -202,7 +226,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 832999200
+              "duration": 837360499
             }
           },
           {
@@ -215,7 +239,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 163751199
+              "duration": 207360300
             }
           },
           {
@@ -228,7 +252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1350822799
+              "duration": 1225818299
             }
           },
           {
@@ -241,7 +265,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 341835100
+              "duration": 853915600
             }
           },
           {
@@ -249,7 +273,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 434507700
+              "duration": 708220300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22916300
             }
           }
         ],
@@ -273,7 +305,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 570135299
+              "duration": 421272400
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1117397300
             }
           },
           {
@@ -286,7 +326,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2162443400
+              "duration": 2691037499
             }
           },
           {
@@ -299,7 +339,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1352681599
+              "duration": 1618898399
             }
           },
           {
@@ -312,7 +352,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 259779200
+              "duration": 290409200
             }
           },
           {
@@ -325,7 +365,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 215795699
+              "duration": 311420700
             }
           },
           {
@@ -338,7 +378,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 84489399
+              "duration": 135646499
             }
           },
           {
@@ -351,7 +391,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 834520999
+              "duration": 348615499
             }
           },
           {
@@ -364,7 +404,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 157853899
+              "duration": 253765899
             }
           },
           {
@@ -377,7 +417,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 428837700
+              "duration": 454649700
             }
           },
           {
@@ -390,7 +430,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 279443599
+              "duration": 433279800
             }
           },
           {
@@ -398,7 +438,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 362908800
+              "duration": 547600600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28121999
             }
           }
         ],
@@ -419,6 +467,2682 @@
     "uri": "features\\adminAddAttraction.feature"
   },
   {
+    "description": "  As a traveler or guide on GoCeylon\n  I want to manage guide bookings end-to-end\n  So that I can plan, confirm, and track tour arrangements",
+    "elements": [
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-the-guide-list-for-a-location",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Traveler views the guide list for a location",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 443838100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57720399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2042593099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515579700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the guide list page heading \"Guides\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:304"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42189800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the guide search input is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:320"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5231700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30228300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 14
+          },
+          {
+            "name": "@traveler",
+            "line": 14
+          },
+          {
+            "name": "@guide-list",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-searches-for-a-guide-by-name",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Traveler searches for a guide by name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 441758300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22231200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005184099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1518480800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the traveler types \"Kamal\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141278500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the guide cards shown contain the text \"Kamal\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:330"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6740499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29012900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 21
+          },
+          {
+            "name": "@search",
+            "line": 21
+          },
+          {
+            "name": "@regression",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-sees-no-results-for-an-unknown-guide-name",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Traveler sees no results for an unknown guide name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 351172599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38886600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2032356800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1516778700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the traveler types \"zzznomatch\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141299899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the no-guides message \"No guides found...\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5270499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24102100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 28
+          },
+          {
+            "name": "@search",
+            "line": 28
+          },
+          {
+            "name": "@regression",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-filters-guide-list-using-different-search-keywords",
+        "keyword": "Scenario Outline",
+        "line": 46,
+        "name": "Traveler filters guide list using different search keywords",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 362582000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23317699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2218586299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1535166199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the traveler types \"Kamal\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142282800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the guide search results count is at least 1",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3906399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21614799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 37
+          },
+          {
+            "name": "@search",
+            "line": 37
+          },
+          {
+            "name": "@regression",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-filters-guide-list-using-different-search-keywords",
+        "keyword": "Scenario Outline",
+        "line": 47,
+        "name": "Traveler filters guide list using different search keywords",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 383504399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32593499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2265994200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1518286699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the traveler types \"Nimal\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152042400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the guide search results count is at least 1",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4255799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21286899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 37
+          },
+          {
+            "name": "@search",
+            "line": 37
+          },
+          {
+            "name": "@regression",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-filters-guide-list-using-different-search-keywords",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "Traveler filters guide list using different search keywords",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 406568299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30815499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1990186900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the traveler navigates to the guide list for location \"674abc123def456789012345\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1519755700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "the traveler types \"guide\" in the guide search input",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:204"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143807500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the guide search results count is at least 0",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3120100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40350699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 37
+          },
+          {
+            "name": "@search",
+            "line": 37
+          },
+          {
+            "name": "@regression",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-books-a-guide-successfully",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Traveler books a guide successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 428955699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36341399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "the traveler is logged in and a guide booking page is pre-loaded",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3532878299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "the traveler clicks the \"Request Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194246899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the success modal with title \"Requested!\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:375"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4904500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "the modal message \"Your booking is pending confirmation.\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:385"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7198600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29767599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 51
+          },
+          {
+            "name": "@traveler",
+            "line": 51
+          },
+          {
+            "name": "@booking",
+            "line": 51
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-is-redirected-to-booking-history-after-confirming-success-modal",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Traveler is redirected to booking history after confirming success modal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 357020199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38992499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 60,
+            "name": "the traveler is logged in and a guide booking page is pre-loaded",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3502060300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "the traveler clicks the \"Request Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182403400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "the traveler clicks \"OK\" in the success modal",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:242"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181111299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "the URL contains \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:395"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5224099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23155599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 58
+          },
+          {
+            "name": "@booking",
+            "line": 58
+          },
+          {
+            "name": "@regression",
+            "line": 58
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-their-booking-history",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Traveler views their booking history",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 375960399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28132200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1997636100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "the traveler navigates to \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1520557300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "the booking history page heading \"Booking History\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:401"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26426299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "at least one booking card is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4045199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32727499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 66
+          },
+          {
+            "name": "@traveler",
+            "line": 66
+          },
+          {
+            "name": "@history",
+            "line": 66
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-sees-booking-status-badge-on-each-booking-card",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Traveler sees booking status badge on each booking card",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 342044799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29184899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 75,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2029809399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "the traveler navigates to \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1516654900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "each booking card has a visible status badge",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:429"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24305899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28714099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 73
+          },
+          {
+            "name": "@history",
+            "line": 73
+          },
+          {
+            "name": "@regression",
+            "line": 73
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-booking-details-for-different-booking-statuses",
+        "keyword": "Scenario Outline",
+        "line": 93,
+        "name": "Traveler views booking details for different booking statuses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 328113800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28322499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2091201199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the booking is stubbed with status \"pending\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "the traveler navigates to booking info page for booking \"mock_booking_001\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515434999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:440"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25143100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the booking status badge is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5787100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32133199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 83
+          },
+          {
+            "name": "@booking-info",
+            "line": 83
+          },
+          {
+            "name": "@regression",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-booking-details-for-different-booking-statuses",
+        "keyword": "Scenario Outline",
+        "line": 94,
+        "name": "Traveler views booking details for different booking statuses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 438536200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22492900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003531700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the booking is stubbed with status \"confirmed\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 919500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "the traveler navigates to booking info page for booking \"mock_booking_001\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1516407399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:440"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24910099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the booking status badge is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5817100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27533199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 83
+          },
+          {
+            "name": "@booking-info",
+            "line": 83
+          },
+          {
+            "name": "@regression",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-views-booking-details-for-different-booking-statuses",
+        "keyword": "Scenario Outline",
+        "line": 95,
+        "name": "Traveler views booking details for different booking statuses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 587312399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14408799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1972323999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the booking is stubbed with status \"cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "the traveler navigates to booking info page for booking \"mock_booking_001\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1515745399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "the booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:440"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29091700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the booking status badge is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5798200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26152600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 83
+          },
+          {
+            "name": "@booking-info",
+            "line": 83
+          },
+          {
+            "name": "@regression",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-cancels-a-pending-booking",
+        "keyword": "Scenario",
+        "line": 98,
+        "name": "Traveler cancels a pending booking",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 376489900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42047899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 99,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2147781000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 100,
+            "name": "the traveler navigates to booking info page for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1518584099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "the traveler clicks the \"Cancel Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219357799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "the cancel confirmation modal is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:463"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9355600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "a \"Yes, Cancel\" button is shown in the cancel modal",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:471"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5212199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33556100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 97
+          },
+          {
+            "name": "@cancellation",
+            "line": 97
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-confirms-booking-cancellation",
+        "keyword": "Scenario",
+        "line": 106,
+        "name": "Traveler confirms booking cancellation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 455700599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34621799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 107,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1984351099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 108,
+            "name": "the traveler navigates to booking info page for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:220"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1519908699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "the traveler clicks the \"Cancel Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170687200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "the traveler clicks \"Yes, Cancel\" in the cancel modal",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:251"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140472200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "the booking status changes to \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:479"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6997500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34995800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 105
+          },
+          {
+            "name": "@cancellation",
+            "line": 105
+          },
+          {
+            "name": "@regression",
+            "line": 105
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;traveler-downloads-a-booking-receipt",
+        "keyword": "Scenario",
+        "line": 114,
+        "name": "Traveler downloads a booking receipt",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 638571400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113804700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 115,
+            "name": "the traveler is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2113258000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "the traveler navigates to \"/user/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1529112500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "the traveler clicks the download receipt button on the first booking",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:258"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12879999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 118,
+            "name": "a PDF download is triggered",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:493"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1205499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43821700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@traveler",
+            "line": 113
+          },
+          {
+            "name": "@receipt",
+            "line": 113
+          },
+          {
+            "name": "@regression",
+            "line": 113
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-views-their-booking-history",
+        "keyword": "Scenario",
+        "line": 122,
+        "name": "Guide views their booking history",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 405982700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31999100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 123,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2488473799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 124,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1555211800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 125,
+            "name": "the guide booking history page heading \"Booking History\" is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:510"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78284199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 126,
+            "name": "at least one guide booking card is displayed",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:523"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9646800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 97526100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 121
+          },
+          {
+            "name": "@guide",
+            "line": 121
+          },
+          {
+            "name": "@history",
+            "line": 121
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-sees-correct-status-badges-on-bookings",
+        "keyword": "Scenario",
+        "line": 129,
+        "name": "Guide sees correct status badges on bookings",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 559587100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28003900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 130,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2124151799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 131,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1518898600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38850099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31150499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 128
+          },
+          {
+            "name": "@status",
+            "line": 128
+          },
+          {
+            "name": "@regression",
+            "line": 128
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-booking-list-renders-each-booking-status-correctly",
+        "keyword": "Scenario Outline",
+        "line": 145,
+        "name": "Guide booking list renders each booking status correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 419932000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39707200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 138,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2154150800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "the guide booking list is stubbed with a single booking in \"Pending\" status",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1532912100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38137399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33077900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 136
+          },
+          {
+            "name": "@status",
+            "line": 136
+          },
+          {
+            "name": "@regression",
+            "line": 136
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-booking-list-renders-each-booking-status-correctly",
+        "keyword": "Scenario Outline",
+        "line": 146,
+        "name": "Guide booking list renders each booking status correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 396044500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17410399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 138,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2231977400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "the guide booking list is stubbed with a single booking in \"Confirmed\" status",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1606499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1523185799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38365699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37865600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 136
+          },
+          {
+            "name": "@status",
+            "line": 136
+          },
+          {
+            "name": "@regression",
+            "line": 136
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-booking-list-renders-each-booking-status-correctly",
+        "keyword": "Scenario Outline",
+        "line": 147,
+        "name": "Guide booking list renders each booking status correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 421626999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33309399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 138,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2032663099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "the guide booking list is stubbed with a single booking in \"Cancelled\" status",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 702600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 140,
+            "name": "the guide navigates to \"/guide/bookinghistory\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1522124400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 141,
+            "name": "each guide booking card displays a status of \"Pending\" or \"Confirmed\" or \"Completed\" or \"Cancelled\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:532"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29404900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29321500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 136
+          },
+          {
+            "name": "@status",
+            "line": 136
+          },
+          {
+            "name": "@regression",
+            "line": 136
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-views-booking-info-details",
+        "keyword": "Scenario",
+        "line": 151,
+        "name": "Guide views booking info details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 349542199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27661900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 152,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005096000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 153,
+            "name": "the guide navigates to guide booking info for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1527761199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 154,
+            "name": "the guide booking info page shows \"Booking Details\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:547"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33214099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 155,
+            "name": "the traveler name section is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:551"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9333799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33227199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 150
+          },
+          {
+            "name": "@booking-info",
+            "line": 150
+          },
+          {
+            "name": "@regression",
+            "line": 150
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-cancels-a-pending-booking",
+        "keyword": "Scenario",
+        "line": 158,
+        "name": "Guide cancels a pending booking",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 712443599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33088099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 159,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3401054499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 160,
+            "name": "the guide navigates to guide booking info for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1526411700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 161,
+            "name": "the guide clicks the \"Cancel Booking\" button",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:238"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187485599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 162,
+            "name": "the guide cancel confirmation modal is visible",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:559"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4772799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37987899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@guide",
+            "line": 157
+          },
+          {
+            "name": "@cancellation",
+            "line": 157
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "booking-guides;guide-enters-a-6-digit-verification-code-to-confirm-a-booking",
+        "keyword": "Scenario",
+        "line": 165,
+        "name": "Guide enters a 6-digit verification code to confirm a booking",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 398921800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the API mocks are configured",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34095300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 166,
+            "name": "the guide is logged in",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2202895499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 167,
+            "name": "the booking is stubbed with status \"confirmed\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2991999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 168,
+            "name": "the guide navigates to guide booking info for booking \"BOOKING_ID_PLACEHOLDER\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1522862200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 169,
+            "name": "the guide enters the verification code \"123456\"",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:286"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 797663100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 170,
+            "name": "the verification code inputs are filled correctly",
+            "match": {
+              "location": "step-definitions\\booking-guides.steps.js:572"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23166799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46863000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@booking",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 164
+          },
+          {
+            "name": "@guide",
+            "line": 164
+          },
+          {
+            "name": "@verification",
+            "line": 164
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "booking-guides",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Booking Guides",
+    "tags": [
+      {
+        "name": "@booking",
+        "line": 1
+      }
+    ],
+    "uri": "features\\booking.feature"
+  },
+  {
     "description": "",
     "elements": [
       {
@@ -433,7 +3157,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 543241700
+              "duration": 410370899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1312722500
             }
           },
           {
@@ -446,7 +3178,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1967532599
+              "duration": 2403360200
             }
           },
           {
@@ -459,7 +3191,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1502460299
+              "duration": 1485158699
             }
           },
           {
@@ -472,7 +3204,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 175266299
+              "duration": 299756300
             }
           },
           {
@@ -485,7 +3217,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 295106599
+              "duration": 557635200
             }
           },
           {
@@ -498,7 +3230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50900699
+              "duration": 71939299
             }
           },
           {
@@ -511,7 +3243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2477289700
+              "duration": 2397472000
             }
           },
           {
@@ -519,7 +3251,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 310963200
+              "duration": 593261200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43354500
             }
           }
         ],
@@ -543,7 +3283,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 549915799
+              "duration": 369631000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1253721300
             }
           },
           {
@@ -556,7 +3304,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2305322099
+              "duration": 2323181499
             }
           },
           {
@@ -569,7 +3317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1298706400
+              "duration": 1517803099
             }
           },
           {
@@ -582,7 +3330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 175307000
+              "duration": 283061099
             }
           },
           {
@@ -595,7 +3343,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 304444999
+              "duration": 444880299
             }
           },
           {
@@ -608,7 +3356,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 44939300
+              "duration": 53568999
             }
           },
           {
@@ -621,7 +3369,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2427769800
+              "duration": 2557250700
             }
           },
           {
@@ -634,7 +3382,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 629577899
+              "duration": 652203399
             }
           },
           {
@@ -647,7 +3395,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 509842199
+              "duration": 759465100
             }
           },
           {
@@ -660,7 +3408,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2074514100
+              "duration": 2115691499
             }
           },
           {
@@ -668,7 +3416,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 309200700
+              "duration": 553287700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40440000
             }
           }
         ],
@@ -692,7 +3448,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 564804700
+              "duration": 397045500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1329901099
             }
           },
           {
@@ -705,7 +3469,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2003722399
+              "duration": 2246390099
             }
           },
           {
@@ -718,7 +3482,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1802269299
+              "duration": 1637846000
             }
           },
           {
@@ -731,7 +3495,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 186424100
+              "duration": 297056599
             }
           },
           {
@@ -744,7 +3508,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 318205799
+              "duration": 498612800
             }
           },
           {
@@ -757,7 +3521,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47423000
+              "duration": 48085300
             }
           },
           {
@@ -770,7 +3534,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2542319500
+              "duration": 2375421000
             }
           },
           {
@@ -783,7 +3547,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 595345399
+              "duration": 526765299
             }
           },
           {
@@ -796,7 +3560,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 628081799
+              "duration": 1181530700
             }
           },
           {
@@ -809,7 +3573,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3161754600
+              "duration": 2155313899
             }
           },
           {
@@ -822,7 +3586,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72593600
+              "duration": 107005099
             }
           },
           {
@@ -835,7 +3599,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 193792799
+              "duration": 193194799
             }
           },
           {
@@ -843,7 +3607,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 325208700
+              "duration": 561190800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39295400
             }
           }
         ],
@@ -878,7 +3650,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 543420600
+              "duration": 377072199
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1328515500
             }
           },
           {
@@ -891,7 +3671,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2326720200
+              "duration": 2812709200
             }
           },
           {
@@ -904,7 +3684,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41642599
+              "duration": 45360099
             }
           },
           {
@@ -917,7 +3697,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 122653599
+              "duration": 229266299
             }
           },
           {
@@ -930,7 +3710,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1208806700
+              "duration": 10997976499
             }
           },
           {
@@ -938,7 +3718,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 317402600
+              "duration": 547122700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48335099
             }
           }
         ],
@@ -962,7 +3750,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 559695399
+              "duration": 415016000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1190285800
             }
           },
           {
@@ -975,7 +3771,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2110065900
+              "duration": 2529339100
             }
           },
           {
@@ -988,7 +3784,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40912099
+              "duration": 66109299
             }
           },
           {
@@ -1001,7 +3797,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 133967000
+              "duration": 233811100
             }
           },
           {
@@ -1014,7 +3810,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1657144199
+              "duration": 1477941399
             }
           },
           {
@@ -1022,7 +3818,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 382135799
+              "duration": 531067600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44974199
             }
           }
         ],
@@ -1046,7 +3850,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 561896099
+              "duration": 422988099
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1183809000
             }
           },
           {
@@ -1059,7 +3871,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2124527800
+              "duration": 2740457900
             }
           },
           {
@@ -1072,7 +3884,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39190799
+              "duration": 72345299
             }
           },
           {
@@ -1085,7 +3897,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130897000
+              "duration": 232072899
             }
           },
           {
@@ -1098,7 +3910,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1721605900
+              "duration": 2060479199
             }
           },
           {
@@ -1106,7 +3918,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 408242999
+              "duration": 812519999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40199699
             }
           }
         ],
@@ -1141,7 +3961,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 571250099
+              "duration": 446483899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1069980299
             }
           },
           {
@@ -1154,7 +3982,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2138387900
+              "duration": 2436164799
             }
           },
           {
@@ -1167,7 +3995,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 535144899
+              "duration": 672118500
             }
           },
           {
@@ -1180,7 +4008,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1003158999
+              "duration": 1036236200
             }
           },
           {
@@ -1193,7 +4021,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 918590600
+              "duration": 942899100
             }
           },
           {
@@ -1206,7 +4034,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 352277200
+              "duration": 358937000
             }
           },
           {
@@ -1214,7 +4042,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 374683000
+              "duration": 733812300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40333900
             }
           }
         ],
@@ -1238,7 +4074,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 558607000
+              "duration": 475022700
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1220932299
             }
           },
           {
@@ -1251,7 +4095,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2136010299
+              "duration": 2930963499
             }
           },
           {
@@ -1264,7 +4108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 391635800
+              "duration": 365148199
             }
           },
           {
@@ -1277,7 +4121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 954509000
+              "duration": 1025578600
             }
           },
           {
@@ -1290,7 +4134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 949528600
+              "duration": 975556299
             }
           },
           {
@@ -1303,7 +4147,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 350174800
+              "duration": 342753599
             }
           },
           {
@@ -1311,7 +4155,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 346306599
+              "duration": 546874199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35736600
             }
           }
         ],
@@ -1335,7 +4187,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 702009799
+              "duration": 389867999
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1131955400
             }
           },
           {
@@ -1348,7 +4208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2368900999
+              "duration": 2686116999
             }
           },
           {
@@ -1361,7 +4221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 381521200
+              "duration": 383799399
             }
           },
           {
@@ -1374,7 +4234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 988446899
+              "duration": 1049176600
             }
           },
           {
@@ -1387,7 +4247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 934345400
+              "duration": 961142699
             }
           },
           {
@@ -1400,7 +4260,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 345295599
+              "duration": 358009699
             }
           },
           {
@@ -1408,7 +4268,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 336389500
+              "duration": 703883600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35157699
             }
           }
         ],
