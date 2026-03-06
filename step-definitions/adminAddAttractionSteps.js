@@ -1,6 +1,7 @@
 const { Given, When, Then, Before, After, setDefaultTimeout } = require('@cucumber/cucumber');
 const { chromium } = require('playwright');
 const assert = require('assert');
+const fs = require('fs');
 const path = require('path');
 
 const BASE_URL = process.env.BASE_URL || 'https://go-ceylon-frontend.vercel.app';
@@ -12,6 +13,19 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
 
 let browser;
 let page;
+
+const resolveUploadImagePath = () => {
+    const fixturePath = path.resolve(__dirname, '..', 'fixtures', 'sample-image.png');
+
+    if (!fs.existsSync(fixturePath)) {
+        // Keep the upload file inside the test workspace so CI and local runs use the same deterministic path.
+        const pngBase64 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO2WZ9kAAAAASUVORK5CYII=';
+        fs.mkdirSync(path.dirname(fixturePath), { recursive: true });
+        fs.writeFileSync(fixturePath, Buffer.from(pngBase64, 'base64'));
+    }
+
+    return fixturePath;
+};
 
 setDefaultTimeout(60 * 1000);
 
@@ -86,18 +100,7 @@ When('the admin fills valid attraction details', async () => {
     await page.keyboard.type('Beach');
     await page.keyboard.press('Enter');
 
-    // Use an existing image from the frontend assets as upload input.
-    const imagePath = path.resolve(
-        __dirname,
-        '..',
-        '..',
-        'GoCeylon-frontend',
-        'src',
-        'assets',
-        'images',
-        'one.avif'
-    );
-
+    const imagePath = resolveUploadImagePath();
     await page.setInputFiles('#images', imagePath);
 
     await page.fill('#point-0', 'PO1234');
