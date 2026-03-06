@@ -1,44 +1,115 @@
-const { Given, When, Then } = require("@cucumber/cucumber");
+const { Given, When, Then, Before, After } = require("@cucumber/cucumber");
+const { chromium } = require("playwright");
 const assert = require("assert");
 const BASE_URL =
   process.env.BASE_URL || "https://go-ceylon-frontend.vercel.app";
 const LOGIN_PATH = process.env.LOGIN_PATH || "/login";
 
-// NOTE: No Before/After hooks here — the shared browser is managed by
-// support/hooks.js which launches a single headless Chromium instance and
-// provides this.page for every scenario.  Adding a separate chromium.launch()
-// here caused a second headed Chrome window to open for every scenario.
+const USER_EMAIL = process.env.USER_EMAIL || "rabjinajith@gmail.com";
+const USER_PASSWORD = process.env.USER_PASSWORD || "123";
+const GUIDE_EMAIL = process.env.GUIDE_EMAIL || "edirisinghamangalika@gmail.com";
+const GUIDE_PASSWORD = process.env.GUIDE_PASSWORD || "edi123";
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "admin@example.com";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "admin123";
+const BUSINESS_EMAIL = process.env.BUSINESS_USER_EMAIL || "dilmi@gmail.com";
+const BUSINESS_PASSWORD = process.env.BUSINESS_USER_PASSWORD || "123";
 
-Given("the user is on the login page", async function () {
-  let response = await this.page.goto(`${BASE_URL}${LOGIN_PATH}`, {
+let browser;
+let page;
+
+const roleCredentials = {
+  user: { email: USER_EMAIL, password: USER_PASSWORD },
+  guide: { email: GUIDE_EMAIL, password: GUIDE_PASSWORD },
+  admin: { email: ADMIN_EMAIL, password: ADMIN_PASSWORD },
+  business: { email: BUSINESS_EMAIL, password: BUSINESS_PASSWORD },
+};
+
+const roleDestinationRegex = {
+  user: /\/user\/?|dashboard/i,
+  guide: /\/guide\/?/i,
+  admin: /\/admin\/dashboard\/?/i,
+  business: /\/business\/?/i,
+};
+
+const fillCredentialsForRole = async (role) => {
+  const creds = roleCredentials[role];
+  assert(creds, `Unsupported login role: ${role}`);
+
+  await page.fill("#email", creds.email);
+  await page.fill("#password", creds.password);
+};
+
+const assertRedirectForRole = async (role) => {
+  const expectedRegex = roleDestinationRegex[role];
+  assert(expectedRegex, `Unsupported login role: ${role}`);
+
+  await page.waitForURL(expectedRegex, { timeout: 15000 });
+  const currentUrl = page.url();
+  assert(
+    expectedRegex.test(currentUrl),
+    `Expected ${role} to land on matching route, but got: ${currentUrl}`,
+  );
+};
+
+Before({ tags: "@login" }, async () => {
+  browser = await chromium.launch({ headless: process.env.CI ? true : false });
+  page = await browser.newPage();
+});
+
+After({ tags: "@login" }, async () => {
+  if (browser) {
+    await browser.close();
+  }
+});
+
+Given("the user is on the login page", async () => {
+  let response = await page.goto(`${BASE_URL}${LOGIN_PATH}`, {
     waitUntil: "domcontentloaded",
   });
 
   // Fallback for hosts that 404 on deep-link routes
   if (!response || response.status() >= 400) {
-    response = await this.page.goto(`${BASE_URL}/`, {
+    response = await page.goto(`${BASE_URL}/`, {
       waitUntil: "domcontentloaded",
     });
   }
 
-  await this.page.waitForSelector("#email", { timeout: 10000 });
-  await this.page.waitForSelector("#password", { timeout: 10000 });
+  await page.waitForSelector("#email", { timeout: 10000 });
+  await page.waitForSelector("#password", { timeout: 10000 });
 });
 
-When("the user enters valid username and password", async function () {
-  await this.page.fill("#email", "rabjinajith@gmail.com");
-  await this.page.fill("#password", "123");
+When("the user enters valid username and password", async () => {
+  await fillCredentialsForRole("user");
 });
 
-When("clicks the login button", async function () {
-  await this.page.click('button[type="submit"]');
+When("the guide enters valid username and password", async () => {
+  await fillCredentialsForRole("guide");
 });
 
-Then("the user should see the dashboard", async function () {
-  await this.page.waitForURL(/user|dashboard/i, { timeout: 10000 });
-  const currentUrl = this.page.url();
-  assert(
-    currentUrl.includes("user") || currentUrl.includes("dashboard"),
-    `Expected to be on dashboard/user page, but got: ${currentUrl}`,
-  );
+When("the admin enters valid username and password", async () => {
+  await fillCredentialsForRole("admin");
+});
+
+When("the business user enters valid username and password", async () => {
+  await fillCredentialsForRole("business");
+});
+
+When("clicks the login button", async () => {
+  await page.click('button[type="submit"]');
+});
+
+Then("the user should see the dashboard", async () => {
+  await assertRedirectForRole("user");
+});
+
+Then("the guide should see the dashboard", async () => {
+  await assertRedirectForRole("guide");
+});
+
+Then("the admin should see the dashboard", async () => {
+  await assertRedirectForRole("admin");
+});
+
+Then("the business user should see the dashboard", async () => {
+  await assertRedirectForRole("business");
 });
