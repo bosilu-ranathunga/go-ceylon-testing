@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 648954000
+              "duration": 632184100
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "the admin is on the login page",
             "match": {
-              "location": "step-definitions\\adminAddAttractionSteps.js:43"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:74"
             },
             "result": {
               "status": "passed",
-              "duration": 1990326100
+              "duration": 2101069399
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "the admin logs in with valid credentials",
             "match": {
-              "location": "step-definitions\\adminAddAttractionSteps.js:55"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:86"
             },
             "result": {
               "status": "passed",
-              "duration": 1523801199
+              "duration": 1630360200
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 7,
             "name": "the admin navigates to the add attraction page",
             "match": {
-              "location": "step-definitions\\adminAddAttractionSteps.js:63"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:94"
             },
             "result": {
               "status": "passed",
-              "duration": 329670400
+              "duration": 502408300
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 8,
             "name": "the admin fills valid attraction details",
             "match": {
-              "location": "step-definitions\\adminAddAttractionSteps.js:88"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:119"
             },
             "result": {
               "status": "passed",
-              "duration": 249433799
+              "duration": 384966000
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 9,
             "name": "the admin submits the attraction form",
             "match": {
-              "location": "step-definitions\\adminAddAttractionSteps.js:110"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:141"
             },
             "result": {
               "status": "passed",
-              "duration": 91068200
+              "duration": 140840900
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 10,
             "name": "the admin should see an attraction created success message",
             "match": {
-              "location": "step-definitions\\adminAddAttractionSteps.js:114"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:145"
             },
             "result": {
               "status": "passed",
-              "duration": 844713399
+              "duration": 335732100
             }
           },
           {
@@ -100,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 530590100
+              "duration": 525347399
             }
           }
         ],
@@ -108,6 +108,304 @@
           {
             "name": "@adminAddAttraction",
             "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-add-attraction-functionality;admin-can-update-an-existing-attraction",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Admin can update an existing attraction",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1163395199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the admin is on the login page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2022021800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the admin logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1296138300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the admin navigates to the add attraction page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280113600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the admin fills valid attraction details",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255435500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin submits the attraction form",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116761900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should see an attraction created success message",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338029599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the admin navigates to the attractions list page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224553200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the admin updates the created attraction details",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 654450500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the admin should see an attraction updated success message",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:176"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 330128200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 474988000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adminAddAttraction",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-add-attraction-functionality;admin-can-delete-an-existing-attraction",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Admin can delete an existing attraction",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 904845299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "the admin is on the login page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2299406300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the admin logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1398211599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the admin navigates to the add attraction page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301355400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the admin fills valid attraction details",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241904599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the admin submits the attraction form",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114455900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the admin should see an attraction created success message",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331274099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the admin navigates to the attractions list page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288341100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the admin deletes the created attraction",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413779900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the attraction should be removed from the locations list",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:198"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275791900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 434014499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adminAddAttraction",
+            "line": 24
           }
         ],
         "type": "scenario"
@@ -125,6 +423,451 @@
     "elements": [
       {
         "description": "",
+        "id": "business-user-business-management-flow;business-user-can-create-a-business",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Business user can create a business",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 829341599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the business user is on the login page",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2142548400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the business user logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1312053899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the business user navigates to add business page",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215972499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the business user fills valid business details",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333893200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the business user submits the business form",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43111899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the business user should see a business created success message",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2376725800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 303194199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@businessManagement",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "business-user-business-management-flow;business-user-can-update-a-business",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Business user can update a business",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 647633300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the business user is on the login page",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1890250899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the business user logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1248122999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the business user navigates to add business page",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198473900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the business user fills valid business details",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427530300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the business user submits the business form",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44108699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the business user should see a business created success message",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2325431100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the business user opens the created business details",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 495459699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the business user updates the created business details",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575839599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the business user should see a business updated success message",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2260836900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 335364999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@businessManagement",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "business-user-business-management-flow;business-user-can-delete-a-business",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Business user can delete a business",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 573244400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "the business user is on the login page",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2094896000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the business user logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1811709999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the business user navigates to add business page",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 470949200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the business user fills valid business details",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528182200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the business user submits the business form",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59621700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the business user should see a business created success message",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2539793700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the business user opens the created business details",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 643003799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the business user updates the created business details",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 718659500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the business user should see a business updated success message",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2180759000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "the business user deletes the updated business",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94751799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the business should be removed from the business list",
+            "match": {
+              "location": "step-definitions\\businessManagementSteps.js:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157494899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 591802600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@businessManagement",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "business-user-business-management-flow",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Business user business management flow",
+    "tags": [],
+    "uri": "features\\businessManagement.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "login-functionality;user-logs-in-with-valid-credentials",
         "keyword": "Scenario",
         "line": 4,
@@ -135,7 +878,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 902762899
+              "duration": 1196234400
             }
           },
           {
@@ -144,11 +887,11 @@
             "line": 5,
             "name": "the user is on the login page",
             "match": {
-              "location": "step-definitions\\loginSteps.js:21"
+              "location": "step-definitions\\loginSteps.js:57"
             },
             "result": {
               "status": "passed",
-              "duration": 2138788299
+              "duration": 1988247100
             }
           },
           {
@@ -157,11 +900,11 @@
             "line": 6,
             "name": "the user enters valid username and password",
             "match": {
-              "location": "step-definitions\\loginSteps.js:33"
+              "location": "step-definitions\\loginSteps.js:69"
             },
             "result": {
               "status": "passed",
-              "duration": 40678400
+              "duration": 56083800
             }
           },
           {
@@ -170,11 +913,11 @@
             "line": 7,
             "name": "clicks the login button",
             "match": {
-              "location": "step-definitions\\loginSteps.js:38"
+              "location": "step-definitions\\loginSteps.js:81"
             },
             "result": {
               "status": "passed",
-              "duration": 148462400
+              "duration": 198181499
             }
           },
           {
@@ -183,11 +926,11 @@
             "line": 8,
             "name": "the user should see the dashboard",
             "match": {
-              "location": "step-definitions\\loginSteps.js:42"
+              "location": "step-definitions\\loginSteps.js:85"
             },
             "result": {
               "status": "passed",
-              "duration": 1053202799
+              "duration": 1095911299
             }
           },
           {
@@ -195,7 +938,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2038787200
+              "duration": 522375099
             }
           }
         ],
@@ -203,6 +946,174 @@
           {
             "name": "@login",
             "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;admin-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Admin logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 827396300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1962610700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the admin enters valid username and password",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44337800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "clicks the login button",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202151100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the admin should see the dashboard",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1058057500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 363955900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;business-user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Business user logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 793041300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1975764600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the business user enters valid username and password",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45033899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clicks the login button",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160245199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the business user should see the dashboard",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041202000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 832734900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 17
           }
         ],
         "type": "scenario"
@@ -230,7 +1141,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 838926999
+              "duration": 654349700
             }
           },
           {
@@ -243,7 +1154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2295665400
+              "duration": 2113409599
             }
           },
           {
@@ -256,7 +1167,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 411911700
+              "duration": 449200099
             }
           },
           {
@@ -269,7 +1180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 984551400
+              "duration": 969668499
             }
           },
           {
@@ -282,7 +1193,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 907129499
+              "duration": 901817399
             }
           },
           {
@@ -295,7 +1206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 349545500
+              "duration": 348513500
             }
           },
           {
@@ -303,7 +1214,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 523296800
+              "duration": 361131800
             }
           }
         ],
@@ -327,7 +1238,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 792120100
+              "duration": 722470799
             }
           },
           {
@@ -340,7 +1251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2162827099
+              "duration": 2121064299
             }
           },
           {
@@ -353,7 +1264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 381166699
+              "duration": 394601299
             }
           },
           {
@@ -366,7 +1277,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 967718600
+              "duration": 985400200
             }
           },
           {
@@ -379,7 +1290,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 987333699
+              "duration": 985993199
             }
           },
           {
@@ -392,7 +1303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 350309099
+              "duration": 844878900
             }
           },
           {
@@ -400,7 +1311,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 413667700
+              "duration": 374540200
             }
           }
         ],
@@ -424,7 +1335,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 712458899
+              "duration": 746487599
             }
           },
           {
@@ -437,7 +1348,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2204950500
+              "duration": 2136147700
             }
           },
           {
@@ -450,7 +1361,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 378005499
+              "duration": 414489099
             }
           },
           {
@@ -463,7 +1374,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 951702299
+              "duration": 967519000
             }
           },
           {
@@ -476,7 +1387,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 938548899
+              "duration": 917670499
             }
           },
           {
@@ -489,7 +1400,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 342206499
+              "duration": 351147300
             }
           },
           {
@@ -497,7 +1408,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 352417900
+              "duration": 401697599
             }
           }
         ],

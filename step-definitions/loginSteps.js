@@ -4,8 +4,44 @@ const assert = require('assert');
 const BASE_URL = process.env.BASE_URL || 'https://go-ceylon-frontend.vercel.app';
 const LOGIN_PATH = process.env.LOGIN_PATH || '/login';
 
+const USER_EMAIL = process.env.USER_EMAIL || 'rabjinajith@gmail.com';
+const USER_PASSWORD = process.env.USER_PASSWORD || '123';
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@example.com';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
+const BUSINESS_EMAIL = process.env.BUSINESS_USER_EMAIL || 'dilmi@gmail.com';
+const BUSINESS_PASSWORD = process.env.BUSINESS_USER_PASSWORD || '123';
+
 let browser;
 let page;
+
+const roleCredentials = {
+    user: { email: USER_EMAIL, password: USER_PASSWORD },
+    admin: { email: ADMIN_EMAIL, password: ADMIN_PASSWORD },
+    business: { email: BUSINESS_EMAIL, password: BUSINESS_PASSWORD },
+};
+
+const roleDestinationRegex = {
+    user: /\/user\/?|dashboard/i,
+    admin: /\/admin\/dashboard\/?/i,
+    business: /\/business\/?/i,
+};
+
+const fillCredentialsForRole = async (role) => {
+    const creds = roleCredentials[role];
+    assert(creds, `Unsupported login role: ${role}`);
+
+    await page.fill('#email', creds.email);
+    await page.fill('#password', creds.password);
+};
+
+const assertRedirectForRole = async (role) => {
+    const expectedRegex = roleDestinationRegex[role];
+    assert(expectedRegex, `Unsupported login role: ${role}`);
+
+    await page.waitForURL(expectedRegex, { timeout: 15000 });
+    const currentUrl = page.url();
+    assert(expectedRegex.test(currentUrl), `Expected ${role} to land on matching route, but got: ${currentUrl}`);
+};
 
 Before({ tags: '@login' }, async () => {
     browser = await chromium.launch({ headless: process.env.CI ? true : false });
@@ -31,8 +67,15 @@ Given('the user is on the login page', async () => {
 });
 
 When('the user enters valid username and password', async () => {
-    await page.fill('#email', 'rabjinajith@gmail.com');
-    await page.fill('#password', '123');
+    await fillCredentialsForRole('user');
+});
+
+When('the admin enters valid username and password', async () => {
+    await fillCredentialsForRole('admin');
+});
+
+When('the business user enters valid username and password', async () => {
+    await fillCredentialsForRole('business');
 });
 
 When('clicks the login button', async () => {
@@ -40,10 +83,13 @@ When('clicks the login button', async () => {
 });
 
 Then('the user should see the dashboard', async () => {
-    await page.waitForURL(/user|dashboard/i, { timeout: 10000 });
-    const currentUrl = page.url();
-    assert(
-        currentUrl.includes('user') || currentUrl.includes('dashboard'),
-        `Expected to be on dashboard/user page, but got: ${currentUrl}`
-    );
+    await assertRedirectForRole('user');
+});
+
+Then('the admin should see the dashboard', async () => {
+    await assertRedirectForRole('admin');
+});
+
+Then('the business user should see the dashboard', async () => {
+    await assertRedirectForRole('business');
 });

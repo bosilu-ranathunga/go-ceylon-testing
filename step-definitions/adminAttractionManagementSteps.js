@@ -7,12 +7,17 @@ const path = require('path');
 const BASE_URL = process.env.BASE_URL || 'https://go-ceylon-frontend.vercel.app';
 const LOGIN_PATH = process.env.LOGIN_PATH || '/login';
 const ADMIN_ADD_ATTRACTION_PATH = process.env.ADMIN_ADD_ATTRACTION_PATH || '/admin/add-locations';
+const ADMIN_LOCATIONS_PATH = process.env.ADMIN_LOCATIONS_PATH || '/admin/locations';
 
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@example.com';
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
 
 let browser;
 let page;
+let createdAttractionName;
+let updatedAttractionName;
+
+const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 const resolveUploadImagePath = () => {
     const fixturePath = path.resolve(__dirname, '..', 'fixtures', 'sample-image.png');
@@ -25,6 +30,32 @@ const resolveUploadImagePath = () => {
     }
 
     return fixturePath;
+};
+
+const navigateToLocationsListPage = async () => {
+    let onLocationsPage = false;
+
+    try {
+        await page.goto(`${BASE_URL}${ADMIN_LOCATIONS_PATH}`, { waitUntil: 'domcontentloaded', timeout: 20000 });
+        await page.waitForSelector('input[placeholder="Search here..."]', { timeout: 12000 });
+        onLocationsPage = true;
+    } catch (_error) {
+        onLocationsPage = false;
+    }
+
+    // Fallback for environments where deep-linking to admin subroutes is blocked.
+    if (!onLocationsPage) {
+        await page.goto(`${BASE_URL}/admin/dashboard`, { waitUntil: 'domcontentloaded', timeout: 25000 });
+        await page.locator('div.w-64').getByText('Location', { exact: true }).first().click();
+        await page.getByRole('link', { name: /locations list/i }).click();
+    }
+
+    await page.waitForSelector('input[placeholder="Search here..."]', { timeout: 30000 });
+};
+
+const findAttractionRow = (attractionName) => {
+    const attractionPattern = new RegExp(escapeRegex(attractionName), 'i');
+    return page.locator('tbody tr').filter({ hasText: attractionPattern }).first();
 };
 
 setDefaultTimeout(60 * 1000);
@@ -74,7 +105,7 @@ When('the admin navigates to the add attraction page', async () => {
     // Fallback for environments where deep-linking to admin subroutes is blocked.
     if (!onAddAttractionPage) {
         await page.goto(`${BASE_URL}/admin/dashboard`, { waitUntil: 'domcontentloaded', timeout: 25000 });
-        await page.getByText('Location', { exact: true }).click();
+        await page.locator('div.w-64').getByText('Location', { exact: true }).first().click();
         await page.getByRole('link', { name: /new location/i }).click();
     }
 
@@ -86,9 +117,9 @@ When('the admin navigates to the add attraction page', async () => {
 });
 
 When('the admin fills valid attraction details', async () => {
-    const attractionName = `Playwright Attraction ${Date.now()}`;
+    createdAttractionName = `Playwright Attraction ${Date.now()}`;
 
-    await page.fill('#name', attractionName);
+    await page.fill('#name', createdAttractionName);
 
     // ReactQuill uses a content-editable div instead of a regular input.
     await page.locator('.ql-editor').first().fill('A scenic attraction created by automated Playwright test.');
@@ -118,4 +149,68 @@ Then('the admin should see an attraction created success message', async () => {
 
     const isVisible = await successLocator.first().isVisible();
     assert(isVisible, 'Expected success message after creating attraction.');
+});
+
+When('the admin navigates to the attractions list page', async () => {
+    await navigateToLocationsListPage();
+});
+
+When('the admin updates the created attraction details', async () => {
+    assert(createdAttractionName, 'Expected a created attraction name before attempting update.');
+
+    const searchInput = page.locator('input[placeholder="Search here..."]').first();
+    await searchInput.fill(createdAttractionName);
+
+    const attractionRow = findAttractionRow(createdAttractionName);
+    await attractionRow.waitFor({ state: 'visible', timeout: 20000 });
+    await attractionRow.getByRole('button', { name: /edit/i }).click();
+
+    await page.waitForURL(/\/admin\/update-location\//i, { timeout: 20000 });
+    await page.waitForSelector('#name', { timeout: 20000 });
+
+    updatedAttractionName = `${createdAttractionName} Updated`;
+    await page.fill('#name', updatedAttractionName);
+    await page.getByRole('button', { name: /update attraction/i }).click();
+});
+
+Then('the admin should see an attraction updated success message', async () => {
+    const successLocator = page.locator('text=Attraction updated successfully!');
+
+    await successLocator.first().waitFor({ timeout: 20000 });
+
+    const isVisible = await successLocator.first().isVisible();
+    assert(isVisible, 'Expected success message after updating attraction.');
+});
+
+When('the admin deletes the created attraction', async () => {
+    assert(createdAttractionName, 'Expected a created attraction name before attempting delete.');
+
+    const searchInput = page.locator('input[placeholder="Search here..."]').first();
+    await searchInput.fill(createdAttractionName);
+
+    const attractionRow = findAttractionRow(createdAttractionName);
+    await attractionRow.waitFor({ state: 'visible', timeout: 20000 });
+    await attractionRow.getByRole('button', { name: /delete/i }).click();
+
+    await page.getByRole('button', { name: /confirm/i }).click();
+});
+
+Then('the attraction should be removed from the locations list', async () => {
+    const searchInput = page.locator('input[placeholder="Search here..."]').first();
+    await searchInput.fill(createdAttractionName);
+
+    const attractionPattern = new RegExp(escapeRegex(createdAttractionName), 'i');
+    await page.waitForFunction(
+        ({ selector, patternSource, patternFlags }) => {
+            const regex = new RegExp(patternSource, patternFlags);
+            const rows = Array.from(document.querySelectorAll(selector));
+            return rows.every((row) => !regex.test(row.textContent || ''));
+        },
+        { selector: 'tbody tr', patternSource: attractionPattern.source, patternFlags: attractionPattern.flags },
+        { timeout: 20000 }
+    );
+
+    const deletedRow = page.locator('tbody tr').filter({ hasText: attractionPattern });
+    const count = await deletedRow.count();
+    assert.strictEqual(count, 0, `Expected attraction '${createdAttractionName}' to be removed from list.`);
 });
