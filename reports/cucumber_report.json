@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "login-functionality;user-logs-in-with-valid-credentials",
+        "id": "admin-add-attraction-functionality;admin-can-create-a-new-attraction",
         "keyword": "Scenario",
         "line": 4,
-        "name": "User logs in with valid credentials",
+        "name": "Admin can create a new attraction",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 226294299
+              "duration": 181842199
             }
           },
           {
@@ -22,59 +22,85 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1424071899
+              "duration": 1203239199
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the user is on the login page",
+            "name": "the admin is on the login page",
             "match": {
-              "location": "step-definitions\\loginSteps.js:51"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:74"
             },
             "result": {
               "status": "passed",
-              "duration": 2598735600
+              "duration": 1817302999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "the user enters valid username and password",
+            "name": "the admin logs in with valid credentials",
             "match": {
-              "location": "step-definitions\\loginSteps.js:63"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:86"
             },
             "result": {
               "status": "passed",
-              "duration": 84519399
+              "duration": 2254400400
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "clicks the login button",
+            "name": "the admin navigates to the add attraction page",
             "match": {
-              "location": "step-definitions\\loginSteps.js:75"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:94"
             },
             "result": {
               "status": "passed",
-              "duration": 281476699
+              "duration": 745207800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the admin fills valid attraction details",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449223399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the admin submits the attraction form",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170042999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "the user should see the dashboard",
+            "line": 10,
+            "name": "the admin should see an attraction created success message",
             "match": {
-              "location": "step-definitions\\loginSteps.js:79"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:145"
             },
             "result": {
               "status": "passed",
-              "duration": 1679623299
+              "duration": 883889599
             }
           },
           {
@@ -82,7 +108,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 752501000
+              "duration": 616897799
             }
           },
           {
@@ -90,13 +116,13 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 63260099
+              "duration": 13025100
             }
           }
         ],
         "tags": [
           {
-            "name": "@login",
+            "name": "@adminAddAttraction",
             "line": 3
           }
         ],
@@ -104,17 +130,17 @@
       },
       {
         "description": "",
-        "id": "login-functionality;admin-logs-in-with-valid-credentials",
+        "id": "admin-add-attraction-functionality;admin-can-update-an-existing-attraction",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Admin logs in with valid credentials",
+        "line": 13,
+        "name": "Admin can update an existing attraction",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 142398900
+              "duration": 131699800
             }
           },
           {
@@ -122,159 +148,124 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 845935400
+              "duration": 987253000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 12,
-            "name": "the user is on the login page",
+            "line": 14,
+            "name": "the admin is on the login page",
             "match": {
-              "location": "step-definitions\\loginSteps.js:51"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:74"
             },
             "result": {
               "status": "passed",
-              "duration": 2082942200
+              "duration": 3718546000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "the admin enters valid username and password",
+            "line": 15,
+            "name": "the admin logs in with valid credentials",
             "match": {
-              "location": "step-definitions\\loginSteps.js:67"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:86"
             },
             "result": {
               "status": "passed",
-              "duration": 50899400
+              "duration": 1732620500
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 14,
-            "name": "clicks the login button",
+            "line": 16,
+            "name": "the admin navigates to the add attraction page",
             "match": {
-              "location": "step-definitions\\loginSteps.js:75"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:94"
             },
             "result": {
               "status": "passed",
-              "duration": 147481999
+              "duration": 645472300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the admin fills valid attraction details",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508576700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the admin submits the attraction form",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323867400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "the admin should see the dashboard",
-            "match": {
-              "location": "step-definitions\\loginSteps.js:83"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1257708799
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 329302499
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 8609099
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login",
-            "line": 10
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login-functionality;business-user-logs-in-with-valid-credentials",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Business user logs in with valid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 79283800
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 769590199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
             "line": 19,
-            "name": "the user is on the login page",
+            "name": "the admin should see an attraction created success message",
             "match": {
-              "location": "step-definitions\\loginSteps.js:51"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:145"
             },
             "result": {
               "status": "passed",
-              "duration": 2260564699
+              "duration": 406473500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 20,
-            "name": "the business user enters valid username and password",
+            "name": "the admin navigates to the attractions list page",
             "match": {
-              "location": "step-definitions\\loginSteps.js:71"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:154"
             },
             "result": {
               "status": "passed",
-              "duration": 60246699
+              "duration": 446388699
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 21,
-            "name": "clicks the login button",
+            "name": "the admin updates the created attraction details",
             "match": {
-              "location": "step-definitions\\loginSteps.js:75"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:158"
             },
             "result": {
               "status": "passed",
-              "duration": 301118599
+              "duration": 1505465099
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 22,
-            "name": "the business user should see the dashboard",
+            "name": "the admin should see an attraction updated success message",
             "match": {
-              "location": "step-definitions\\loginSteps.js:87"
+              "location": "step-definitions\\adminAttractionManagementSteps.js:176"
             },
             "result": {
               "status": "passed",
-              "duration": 1121126200
+              "duration": 408096699
             }
           },
           {
@@ -282,7 +273,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424616300
+              "duration": 604350800
             }
           },
           {
@@ -290,24 +281,189 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6442100
+              "duration": 8487199
             }
           }
         ],
         "tags": [
           {
-            "name": "@login",
-            "line": 17
+            "name": "@adminAddAttraction",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-add-attraction-functionality;admin-can-delete-an-existing-attraction",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Admin can delete an existing attraction",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157991899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 913184000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "the admin is on the login page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2603650399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the admin logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1691333399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the admin navigates to the add attraction page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13403530500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the admin fills valid attraction details",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368485999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the admin submits the attraction form",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71245499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the admin should see an attraction created success message",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 870033999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the admin navigates to the attractions list page",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442110999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the admin deletes the created attraction",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1088678099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the attraction should be removed from the locations list",
+            "match": {
+              "location": "step-definitions\\adminAttractionManagementSteps.js:198"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 640389900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 612282200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8414400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adminAddAttraction",
+            "line": 24
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "login-functionality",
+    "id": "admin-add-attraction-functionality",
     "line": 1,
     "keyword": "Feature",
-    "name": "Login functionality",
+    "name": "Admin add attraction functionality",
     "tags": [],
-    "uri": "features\\login.feature"
+    "uri": "features\\adminAddAttraction.feature"
   }
 ]
