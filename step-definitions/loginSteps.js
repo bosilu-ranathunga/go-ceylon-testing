@@ -1,3 +1,4 @@
+// This file contains step definitions for login-related scenarios in the Go Ceylon application.
 const { Given, When, Then, Before, After } = require('@cucumber/cucumber');
 const { chromium } = require('playwright');
 const assert = require('assert');
